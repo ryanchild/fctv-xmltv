@@ -1,11 +1,11 @@
-FROM python:2.7-alpine
+FROM python:3.10-alpine
 
 ADD src/ /app/
 
 WORKDIR /app
 
 RUN apk update && \
-    apk add wget curl bash
+    apk add bash
 
 RUN pip install -r /app/requirements.txt
 

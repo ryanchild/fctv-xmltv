@@ -1,11 +1,11 @@
 version: '2'
 
 services:
-  ical-to-xmltv:
+  fctv-xmltv:
 
     build: .
-    container_name: ical-to-xmltv
-
+    container_name: fctv-xmltv
+    restart: always
     volumes:
       - ./data:/app/data
       - ./src/run.sh:/app/run.sh

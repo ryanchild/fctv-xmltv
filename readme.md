@@ -1,6 +1,6 @@
-# iCal to XMLTV Converter
+# Fort Collins TV Guide Downloader
 
-Just a basic script to pull in an iCal URL and convert it to XMLTV format...
+Try to scrape FCTV guide data from fcgov.com and convert it to XMLTV format...
 
 ------------------------------------------------------------------------
 
