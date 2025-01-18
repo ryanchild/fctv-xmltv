@@ -85,14 +85,14 @@ def make_fcgov_url(day):
     return url
 
 
-def make_program(start_time, end_time, description):
+def make_program(start_time, end_time, title):
     """
     Create an XMLTV program entry.
 
     Args:
         start_time (datetime): The start time of the program.
         end_time (datetime): The end time of the program.
-        description (str): The description of the program.
+        title (str): The title of the program.
 
     Returns:
         xmltv.Programme: The created program entry.
@@ -105,7 +105,7 @@ def make_program(start_time, end_time, description):
             system="original-air-date",
             content=[start_time.strftime("%Y-%m-%d")]
         ),
-        title=description
+        title=title
     )
     return program
 
@@ -114,7 +114,7 @@ def main():
     """
     Main function to generate the XMLTV file for Fort Collins TV.
 
-    Retrieves the schedule for today and tomorrow, processes the schedule,
+    Retrieves the schedule for the next three days, processes the schedule,
     and writes the XMLTV file.
     """
     tv = xmltv.Tv()
@@ -124,13 +124,12 @@ def main():
     )
     tv.channel.append(channel)
 
-    today = datetime.now()
-    tomorrow = datetime.now().replace(day=datetime.now().day + 1)
-    for day in [today, tomorrow]:
-        for start, end, description in get_schedule_from_cablecast(day):
+    for i in list(range(3)):
+        day = datetime.now().replace(day=datetime.now().day + i)
+        for start, end, title in get_schedule_from_cablecast(day):
             start = start.replace(tzinfo=ZoneInfo('US/Mountain'))
             end = end.replace(tzinfo=ZoneInfo('US/Mountain'))
-            program = make_program(start, end, description)
+            program = make_program(start, end, title)
             tv.programme.append(program)
 
     xmltv_file = Path('./fctv.xml')
