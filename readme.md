@@ -1,6 +1,6 @@
 # Fort Collins TV Guide Downloader
 
-Try to scrape FCTV guide data from fcgov.com and convert it to XMLTV format...
+Scrapes FCTV guide data from reflect-vod-fcgov.cablecast.tv and converts to XMLTV format
 
 ------------------------------------------------------------------------
 
