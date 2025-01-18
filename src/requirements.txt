@@ -1,5 +1,4 @@
 py-xmltv==1.0.8
-pandas==2.1.0
 lxml==4.9.3
 requests
 html5lib

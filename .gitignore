@@ -2,3 +2,5 @@ data
 src/data
 .DS_Store
 Thumbs.db
+fctv.xml
+.fctv.xml.swp
