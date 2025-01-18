@@ -46,23 +46,24 @@ def get_schedule_from_cablecast(day):
     schedule = []
     schedule_rows = soup.find_all('div', class_='schedule-row clearfix')
     for row in schedule_rows:
-        program_time = row.find('div', class_='plaque').find(
-            'div').get_text(strip=True)
+        program_time = next(iter([r for r in row.find_all(
+            'div') if 'plaque-content' in r.get('class')])).get_text(strip=True)
         program_datetime = process_fcgov_schedule_time(day, program_time)
-        program_title = row.find(
-            'div', class_='schedule-container').find('div').get_text(strip=True)
+        program_title = next(iter([r for r in row.find_all(
+            'div') if 'schedule-title' in r.get('class')])).get_text(strip=True)
         schedule.append([program_datetime, program_title])
 
     for i, (program_datetime, program_title) in enumerate(schedule):
-        logging.log(logging.INFO, 
-            f'{day.strftime("%Y-%m-%d")} {program_datetime}: {program_title}')
+        logging.log(logging.INFO,
+                    f'{day.strftime("%Y-%m-%d")} {program_datetime}: {program_title}')
         if i + 1 < len(schedule):
             next_program_datetime = schedule[i + 1][0]
             program_end = next_program_datetime
-            logging.log(logging.INFO, 
-                f'Next program at {next_program_datetime.strftime("%Y-%m-%d %H:%M:%S")}')
+            logging.log(logging.INFO,
+                        f'Next program at {next_program_datetime.strftime("%Y-%m-%d %H:%M:%S")}')
         else:
-            logging.log(logging.INFO, 'Last program of the day, assume length of 1 hour')
+            logging.log(
+                logging.INFO, 'Last program of the day, assume length of 1 hour')
             program_end = program_datetime + timedelta(hours=1)
         yield program_datetime, program_end, program_title
 
