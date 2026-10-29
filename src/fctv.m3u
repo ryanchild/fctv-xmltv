@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="FCTV" tvg-name="Fort Collins TV" tvg-logo="" group-title="Local",Fort Collins TV
+#EXTINF:-1 tvg-id="FCTV" tvg-name="Fort Collins TV" tvg-logo="https://reflect-vod-fcgov.cablecast.tv/cablecastapi/dynamicthumbnails/2" group-title="Local",Fort Collins TV
 https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8
