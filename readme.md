@@ -1,6 +1,6 @@
 # Fort Collins TV Guide Downloader
 
-Scrapes FCTV guide data from reflect-vod-fcgov.cablecast.tv and converts to XMLTV format
+Fetches FCTV guide data from the Cablecast JSON API at reflect-vod-fcgov.cablecast.tv and converts it to XMLTV format
 
 ------------------------------------------------------------------------
 
