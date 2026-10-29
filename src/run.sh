@@ -9,6 +9,7 @@ while true; do
     echo "downloading today's guide data"
     if python $DIR/fctv_guide.py; then
         mv $DIR/fctv.xml $DIR/data/
+        cp $DIR/fctv.m3u $DIR/data/
         echo "done"
     fi
     # guide is only available for today and seems to be posted some time between midnight and 3am?  so check every 3 hours
