@@ -1,12 +1,17 @@
-#!/usr/bin/env python3.9
+#!/usr/bin/env python3
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import sys
 import requests
 import logging
 from xmltv import xmltv_helpers
 from xmltv.models import xmltv
 from pathlib import Path
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s'
+)
 
 
 def get_schedule_from_cablecast(day):
@@ -24,15 +29,28 @@ def get_schedule_from_cablecast(day):
         tuple: A tuple containing the start datetime, end datetime, and program title.
     """
     url = make_fcgov_url(day)
-    response = requests.get(url, headers={'Accept': 'application/json'})
-    response.raise_for_status()
-    data = response.json()
+    logging.info(f"Fetching schedule from {url}")
+    try:
+        response = requests.get(url, headers={'Accept': 'application/json'}, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        logging.warning(f"Failed to fetch schedule for {day.strftime('%Y-%m-%d')}: {e}")
+        return
 
-    for item in data.get('schedule', {}).get('scheduleItems', []):
-        title = item['title']
-        start = datetime.fromisoformat(item['runDateTime'])
-        end = datetime.fromisoformat(item['endDateTime'])
-        logging.info(f'{start}: {title}')
+    schedule_items = data.get('schedule', {}).get('scheduleItems', [])
+    logging.info(f"Found {len(schedule_items)} items for {day.strftime('%Y-%m-%d')}")
+
+    for item in schedule_items:
+        title = item.get('title')
+        if not title:
+            continue
+        try:
+            start = datetime.fromisoformat(item['runDateTime'])
+            end = datetime.fromisoformat(item['endDateTime'])
+        except (KeyError, ValueError) as err:
+            logging.warning(f"Error parsing date in item {item}: {err}")
+            continue
         yield start, end, title
 
 
@@ -88,7 +106,7 @@ def main():
     """
     Main function to generate the XMLTV file for Fort Collins TV.
 
-    Retrieves the schedule for the next three days, processes the schedule,
+    Retrieves the schedule for today and the next two days, processes the schedule,
     and writes the XMLTV file.
     """
     tv = xmltv.Tv()
@@ -98,14 +116,27 @@ def main():
     )
     tv.channel.append(channel)
 
-    for i in list(range(3)):
-        day = datetime.now().replace(day=datetime.now().day + i)
+    today = datetime.now()
+    total_programs = 0
+
+    for i in range(3):
+        day = today + timedelta(days=i)
         for start, end, title in get_schedule_from_cablecast(day):
             program = make_program(start, end, title)
             tv.programme.append(program)
+            total_programs += 1
 
-    xmltv_file = Path('./fctv.xml')
-    xmltv_helpers.write_file_from_xml(xmltv_file, tv)
+    logging.info(f'Total programmes collected: {total_programs}')
+
+    if total_programs == 0:
+        logging.error('No programmes collected; aborting to avoid overwriting with empty guide data.')
+        return 1
+
+    output_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('./fctv.xml')
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    xmltv_helpers.write_file_from_xml(output_path, tv)
+    logging.info(f'Successfully wrote XMLTV file to {output_path}')
+    return 0
 
 
 if __name__ == '__main__':

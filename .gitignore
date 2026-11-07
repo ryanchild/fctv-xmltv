@@ -1,6 +1,8 @@
-data
-src/data
+data/
+src/data/
 .DS_Store
 Thumbs.db
-fctv.xml
-.fctv.xml.swp
+.venv/
+__pycache__/
+*.pyc
+*.swp

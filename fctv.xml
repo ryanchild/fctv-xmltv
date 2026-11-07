@@ -1,0 +1,17 @@
+<tv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="resources/xmltv.xsd">
+  <channel id="FCTV">
+    <display-name>Fort Collins TV</display-name>
+  </channel>
+  <programme start="20261106100000 -0600" stop="20261106110000 -0600" channel="FCTV" clumpidx="0/1">
+    <title>Test Show</title>
+    <episode-num system="original-air-date">2026-11-06</episode-num>
+  </programme>
+  <programme start="20261106100000 -0600" stop="20261106110000 -0600" channel="FCTV" clumpidx="0/1">
+    <title>Test Show</title>
+    <episode-num system="original-air-date">2026-11-06</episode-num>
+  </programme>
+  <programme start="20261106100000 -0600" stop="20261106110000 -0600" channel="FCTV" clumpidx="0/1">
+    <title>Test Show</title>
+    <episode-num system="original-air-date">2026-11-06</episode-num>
+  </programme>
+</tv>

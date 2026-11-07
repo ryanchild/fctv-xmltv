@@ -1,0 +1,100 @@
+name: Build and Release Guide
+
+on:
+  schedule:
+    # Run every 3 hours at 15 minutes past the hour
+    - cron: '15 */3 * * *'
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
+      - 'requirements.txt'
+      - '.github/workflows/**'
+      - 'fctv.m3u'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate XMLTV file
+        run: |
+          python src/fctv_guide.py fctv.xml
+          gzip -c -9 fctv.xml > fctv.xml.gz
+
+      - name: Commit and push to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fctv.xml fctv.xml.gz
+          if git diff --staged --quiet; then
+            echo "Guide data is unchanged; nothing to commit."
+          else
+            git commit -m "Update FCTV guide data [skip ci]"
+            git push origin master
+          fi
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: guide-files
+          path: |
+            fctv.xml
+            fctv.xml.gz
+            fctv.m3u
+          retention-days: 7
+
+      - name: Publish to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="latest"
+          TITLE="Fort Collins TV Guide Data"
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          BODY="Automated XMLTV Electronic Program Guide (EPG) and M3U stream playlist for Fort Collins TV.
+
+          **Last Updated:** ${TIMESTAMP}
+
+          ### Raw GitHub URLs (Direct / No Redirects):
+          - **XMLTV Guide (XML):** https://raw.githubusercontent.com/${{ github.repository }}/master/fctv.xml
+          - **XMLTV Guide (Compressed):** https://raw.githubusercontent.com/${{ github.repository }}/master/fctv.xml.gz
+          - **M3U Playlist:** https://raw.githubusercontent.com/${{ github.repository }}/master/fctv.m3u
+
+          ### Release Download Links:
+          - **XMLTV Guide (XML):** [fctv.xml](https://github.com/${{ github.repository }}/releases/latest/download/fctv.xml)
+          - **XMLTV Guide (Compressed):** [fctv.xml.gz](https://github.com/${{ github.repository }}/releases/latest/download/fctv.xml.gz)
+          - **M3U Playlist:** [fctv.m3u](https://github.com/${{ github.repository }}/releases/latest/download/fctv.m3u)"
+
+          # Update tag locally and push to origin
+          git tag -f "$TAG"
+          git push origin "$TAG" --force
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release '$TAG' exists; uploading assets and updating metadata..."
+            gh release edit "$TAG" --title "$TITLE" --notes "$BODY" --latest
+            gh release upload "$TAG" fctv.xml fctv.xml.gz fctv.m3u --clobber
+          else
+            echo "Creating release '$TAG'..."
+            gh release create "$TAG" fctv.xml fctv.xml.gz fctv.m3u --title "$TITLE" --notes "$BODY" --latest
+          fi
