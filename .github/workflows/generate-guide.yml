@@ -52,6 +52,7 @@ jobs:
             echo "Guide data is unchanged; nothing to commit."
           else
             git commit -m "Update FCTV guide data [skip ci]"
+            git pull --rebase origin master
             git push origin master
           fi
 
