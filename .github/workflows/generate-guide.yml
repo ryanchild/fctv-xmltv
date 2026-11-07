@@ -2,8 +2,8 @@ name: Build and Release Guide
 
 on:
   schedule:
-    # Run every 3 hours at 15 minutes past the hour
-    - cron: '15 */3 * * *'
+    # Run twice daily: 11:15 UTC (~4:15 AM MT) and 23:15 UTC (~4:15 PM MT)
+    - cron: '15 11,23 * * *'
   push:
     branches:
       - master

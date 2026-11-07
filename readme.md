@@ -2,7 +2,7 @@
 
 Fetches Fort Collins TV guide data from the Cablecast JSON API (`reflect-vod-fcgov.cablecast.tv`) and converts it to XMLTV format.
 
-The guide and playlist are **automatically updated and committed by GitHub Actions** every 3 hours directly to the repository and published to GitHub Releases, so you don't need to run or host any containers.
+The guide and playlist are **automatically updated and committed by GitHub Actions** twice daily directly to the repository and published to GitHub Releases, so you don't need to run or host any containers.
 
 ---
 
@@ -32,7 +32,7 @@ If you prefer GitHub Releases:
 
 ## ⚙️ How It Works (GitHub Actions)
 
-A GitHub Actions workflow ([`.github/workflows/generate-guide.yml`](.github/workflows/generate-guide.yml)) runs every 3 hours:
+A GitHub Actions workflow ([`.github/workflows/generate-guide.yml`](.github/workflows/generate-guide.yml)) runs twice daily (11:15 UTC and 23:15 UTC, ~4:15 AM and 4:15 PM Mountain Time):
 1. Fetches the schedule for today and the next two days from Cablecast.
 2. Generates `fctv.xml` and compresses `fctv.xml.gz`.
 3. Commits and pushes the updated files directly to the `master` branch using `[skip ci]` (powering the `raw.githubusercontent.com` URLs).
