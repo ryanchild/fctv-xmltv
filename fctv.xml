@@ -26,16 +26,8 @@
     <title>Hispanic Community Leaders</title>
     <episode-num system="original-air-date">2026-11-09</episode-num>
   </programme>
-  <programme start="20261109100000 -0700" stop="20261109120000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County BOCC Work Session 11/9/26, 10 a.m.</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
   <programme start="20261109123000 -0700" stop="20261109123512 -0700" channel="FCTV" clumpidx="0/1">
     <title>City View: Native Gardens at the Gardens on Spring Creek</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109133000 -0700" stop="20261109143000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County BOCC Work Session 11/9/26, 1:30 p.m.</title>
     <episode-num system="original-air-date">2026-11-09</episode-num>
   </programme>
   <programme start="20261109150000 -0700" stop="20261109180000 -0700" channel="FCTV" clumpidx="0/1">
@@ -98,7 +90,7 @@
     <title>Fort Collins City Council Work Session 6:00 PM</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
-  <programme start="20261111070000 -0700" stop="20261111090000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261111070000 -0700" stop="20261111090421 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County BOCC Work Session 11/9/26, 10 a.m.</title>
     <episode-num system="original-air-date">2026-11-11</episode-num>
   </programme>
