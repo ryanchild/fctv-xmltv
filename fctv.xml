@@ -6,10 +6,6 @@
     <title>Larimer County Land Use Meeting 11/9/26, 3 p.m.</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
-  <programme start="20261110090000 -0700" stop="20261110120000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Administrative Matters Meeting</title>
-    <episode-num system="original-air-date">2026-11-10</episode-num>
-  </programme>
   <programme start="20261110120000 -0700" stop="20261110132324 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
@@ -62,16 +58,148 @@
     <title>Fort Collins City Council Work Session 11/10/26</title>
     <episode-num system="original-air-date">2026-11-11</episode-num>
   </programme>
+  <programme start="20261111130000 -0700" stop="20261111131812 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Scientists in Action</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111131812 -0700" stop="20261111132914 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Scientists in Action: Pikas</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111133000 -0700" stop="20261111135748 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Book Lust - Jess Walter</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
   <programme start="20261111143000 -0700" stop="20261111145142 -0700" channel="FCTV" clumpidx="0/1">
     <title>Look, Listen + Learn: Why Worry?</title>
     <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111180000 -0700" stop="20261111180512 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111183000 -0700" stop="20261111190517 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Let's Talk with Mark Koebrich - Winter Preparedness</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111193000 -0700" stop="20261111195702 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Community Check Up - Lung Health</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111200000 -0700" stop="20261111202537 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Chief Chat - August 2026</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261111210000 -0700" stop="20261111212758 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Red Rocks Premieres - Ramakhandra</title>
+    <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261112053000 -0700" stop="20261112053502 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Historical Preservation: Dr Schulz's Office</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112053502 -0700" stop="20261112053951 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Historical Preservation: FoCo Cafe</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112053951 -0700" stop="20261112054430 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Great Western Sugar Company Effluent Flume &amp; Bridge at Kingfisher Point</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112063000 -0700" stop="20261112065741 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Connected Colorado: Wellness and Community</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112070000 -0700" stop="20261112080333 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Larimer County BOCC Work Session 11/9/26, 1:30 p.m.</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112080333 -0700" stop="20261112081620 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen, + Learn: From the Dirt to Table to Dirt</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112090000 -0700" stop="20261112093644 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Brewing Brilliance: Beer Study and Practice</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112093644 -0700" stop="20261112094329 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Careers in the Brewing Industry</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112100000 -0700" stop="20261112100512 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112103000 -0700" stop="20261112105730 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Book Lust - Rosalyn Story</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112110000 -0700" stop="20261112110756 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Natural Areas</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112110756 -0700" stop="20261112111536 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Pianos About Town</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112111536 -0700" stop="20261112112332 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Out of the Box - Farm to Fork</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112113000 -0700" stop="20261112113538 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Busy Beavers - Partners in Watershed Protection</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112113538 -0700" stop="20261112114023 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View 2024: Episode 6</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112114023 -0700" stop="20261112115033 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View 2024 Episode 5</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112123000 -0700" stop="20261112135056 -0700" channel="FCTV" clumpidx="0/1">
+    <title>The Role of Music in Dementia</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112140000 -0700" stop="20261112142741 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Connected Colorado: Wellness and Community</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
   </programme>
   <programme start="20261112143000 -0700" stop="20261112145526 -0700" channel="FCTV" clumpidx="0/1">
     <title>Look, Listen + Learn: Berry Good Blueberries</title>
     <episode-num system="original-air-date">2026-11-12</episode-num>
   </programme>
-  <programme start="20261112163000 -0700" stop="20261112165624 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Extreme Workout 7</title>
+  <programme start="20261112150000 -0700" stop="20261112150512 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112160000 -0700" stop="20261112172324 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112180000 -0700" stop="20261112184019 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Student Success in a Changing Job Market: Career Technical Education</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112193000 -0700" stop="20261112193905 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View 2024 Episode 4</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112193905 -0700" stop="20261112194048 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Indoor Air Quality</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112194048 -0700" stop="20261112194312 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: HOPE</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112200000 -0700" stop="20261112202537 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Chief Chat - August 2026</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112210000 -0700" stop="20261112212702 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Red Rocks Premieres - Whitacre</title>
     <episode-num system="original-air-date">2026-11-12</episode-num>
   </programme>
 </tv>
