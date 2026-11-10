@@ -2,43 +2,7 @@
   <channel id="FCTV">
     <display-name>Fort Collins TV</display-name>
   </channel>
-  <programme start="20261109053000 -0700" stop="20261109055537 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Chief Chat - August 2026</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109060000 -0700" stop="20261109065901 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Ask A Scientist - Birds</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109070000 -0700" stop="20261109072517 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Extreme Conditioning Workout 2 - Arms, Back &amp; Legs</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109073000 -0700" stop="20261109075102 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Reality Cooking - Cinnamon Rolls</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109080000 -0700" stop="20261109082506 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Look, Listen + Learn: Colorful Cultures</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109090000 -0700" stop="20261109091816 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Hispanic Community Leaders</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109123000 -0700" stop="20261109123512 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109150000 -0700" stop="20261109180000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Land Use Meeting 11/9/26, 3 p.m.</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261109180000 -0700" stop="20261109200000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
-    <episode-num system="original-air-date">2026-11-09</episode-num>
-  </programme>
-  <programme start="20261110053000 -0700" stop="20261110083000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261110053000 -0700" stop="20261110061119 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Land Use Meeting 11/9/26, 3 p.m.</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
@@ -46,7 +10,7 @@
     <title>Larimer County Administrative Matters Meeting</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
-  <programme start="20261110120000 -0700" stop="20261110140000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261110120000 -0700" stop="20261110132324 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
@@ -90,7 +54,7 @@
     <title>Fort Collins City Council Work Session 6:00 PM</title>
     <episode-num system="original-air-date">2026-11-10</episode-num>
   </programme>
-  <programme start="20261111070000 -0700" stop="20261111090421 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261111065500 -0700" stop="20261111085921 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County BOCC Work Session 11/9/26, 10 a.m.</title>
     <episode-num system="original-air-date">2026-11-11</episode-num>
   </programme>
@@ -101,5 +65,13 @@
   <programme start="20261111143000 -0700" stop="20261111145142 -0700" channel="FCTV" clumpidx="0/1">
     <title>Look, Listen + Learn: Why Worry?</title>
     <episode-num system="original-air-date">2026-11-11</episode-num>
+  </programme>
+  <programme start="20261112143000 -0700" stop="20261112145526 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: Berry Good Blueberries</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
+  </programme>
+  <programme start="20261112163000 -0700" stop="20261112165624 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Extreme Workout 7</title>
+    <episode-num system="original-air-date">2026-11-12</episode-num>
   </programme>
 </tv>
