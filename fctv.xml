@@ -2,50 +2,6 @@
   <channel id="FCTV">
     <display-name>Fort Collins TV</display-name>
   </channel>
-  <programme start="20261111065500 -0700" stop="20261111085921 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County BOCC Work Session 11/9/26, 10 a.m.</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111090000 -0700" stop="20261111123846 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Fort Collins City Council Work Session 11/10/26</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111130000 -0700" stop="20261111131812 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Scientists in Action</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111131812 -0700" stop="20261111132914 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Scientists in Action: Pikas</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111133000 -0700" stop="20261111135748 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Book Lust - Jess Walter</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111143000 -0700" stop="20261111145142 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Look, Listen + Learn: Why Worry?</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111180000 -0700" stop="20261111180512 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111183000 -0700" stop="20261111190517 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Let's Talk with Mark Koebrich - Winter Preparedness</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111193000 -0700" stop="20261111195702 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Community Check Up - Lung Health</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111200000 -0700" stop="20261111202537 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Chief Chat - August 2026</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
-  <programme start="20261111210000 -0700" stop="20261111212758 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Red Rocks Premieres - Ramakhandra</title>
-    <episode-num system="original-air-date">2026-11-11</episode-num>
-  </programme>
   <programme start="20261112053000 -0700" stop="20261112053502 -0700" channel="FCTV" clumpidx="0/1">
     <title>Out of the Box - Historical Preservation: Dr Schulz's Office</title>
     <episode-num system="original-air-date">2026-11-12</episode-num>
@@ -229,5 +185,33 @@
   <programme start="20261113180000 -0700" stop="20261113213846 -0700" channel="FCTV" clumpidx="0/1">
     <title>Fort Collins City Council Work Session 11/10/26</title>
     <episode-num system="original-air-date">2026-11-13</episode-num>
+  </programme>
+  <programme start="20261114070000 -0700" stop="20261114072750 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Fit for Duty - Yoga</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114073000 -0700" stop="20261114075625 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Reality Cooking - Oreo Cheesecake Squares</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114080000 -0700" stop="20261114082439 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: Be Kind, Be You</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114100000 -0700" stop="20261114110606 -0700" channel="FCTV" clumpidx="0/1">
+    <title>KRFC RadioVision - A.M. Pleasure Assassins</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114143000 -0700" stop="20261114145647 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: Just Ask</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114163000 -0700" stop="20261114165308 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Fit for Duty - Circuit Training</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
+  </programme>
+  <programme start="20261114170000 -0700" stop="20261114175415 -0700" channel="FCTV" clumpidx="0/1">
+    <title>KRFC RadioVision - Papamo and The Vipers</title>
+    <episode-num system="original-air-date">2026-11-14</episode-num>
   </programme>
 </tv>
