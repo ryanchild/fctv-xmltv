@@ -6,10 +6,6 @@
     <title>Larimer County Land Use Meeting 11/16/26, 3 p.m.</title>
     <episode-num system="original-air-date">2026-11-17</episode-num>
   </programme>
-  <programme start="20261117090000 -0700" stop="20261117120000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Administrative Matters Meeting</title>
-    <episode-num system="original-air-date">2026-11-17</episode-num>
-  </programme>
   <programme start="20261117120000 -0700" stop="20261117132324 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
     <episode-num system="original-air-date">2026-11-17</episode-num>
@@ -50,10 +46,6 @@
     <title>Fort Collins City Council Regular Meeting 5:00 PM</title>
     <episode-num system="original-air-date">2026-11-17</episode-num>
   </programme>
-  <programme start="20261118070000 -0700" stop="20261118090000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County BOCC as Board of Social Services 11/16/26, 10 a.m.</title>
-    <episode-num system="original-air-date">2026-11-18</episode-num>
-  </programme>
   <programme start="20261118090000 -0700" stop="20261118130000 -0700" channel="FCTV" clumpidx="0/1">
     <title>Fort Collins City Council Regular Meeting 11/17/26</title>
     <episode-num system="original-air-date">2026-11-18</episode-num>
@@ -74,7 +66,7 @@
     <title>Look, Listen + Learn: You're the Bee's Knees</title>
     <episode-num system="original-air-date">2026-11-18</episode-num>
   </programme>
-  <programme start="20261118150000 -0700" stop="20261118180000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261118150000 -0700" stop="20261118152637 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Administrative Matters Meeting 11/17/26</title>
     <episode-num system="original-air-date">2026-11-18</episode-num>
   </programme>
