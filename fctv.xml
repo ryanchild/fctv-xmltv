@@ -2,51 +2,7 @@
   <channel id="FCTV">
     <display-name>Fort Collins TV</display-name>
   </channel>
-  <programme start="20261116053000 -0700" stop="20261116055537 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Chief Chat - August 2026</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116060000 -0700" stop="20261116065859 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Ask A Scientist - Black-Footed Ferrets</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116070000 -0700" stop="20261116072332 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Extreme Conditioning Workout 4 - Core, Shoulders, &amp; Back</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116073000 -0700" stop="20261116075512 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Reality Cooking - Spring Rolls</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116080000 -0700" stop="20261116082149 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Look, Listen + Learn: Helping Others</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116090000 -0700" stop="20261116091816 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Hispanic Community Leaders</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116123000 -0700" stop="20261116123512 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116150000 -0700" stop="20261116200000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Land Use Meeting 11/16/26, 3 p.m.</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116203000 -0700" stop="20261116203538 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View: Busy Beavers - Partners in Watershed Protection</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116203538 -0700" stop="20261116204548 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View 2024 Episode 5</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261116204548 -0700" stop="20261116205453 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View 2024 Episode 4</title>
-    <episode-num system="original-air-date">2026-11-16</episode-num>
-  </programme>
-  <programme start="20261117030000 -0700" stop="20261117080000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261117033000 -0700" stop="20261117061347 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Land Use Meeting 11/16/26, 3 p.m.</title>
     <episode-num system="original-air-date">2026-11-17</episode-num>
   </programme>
@@ -121,5 +77,17 @@
   <programme start="20261118150000 -0700" stop="20261118180000 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Administrative Matters Meeting 11/17/26</title>
     <episode-num system="original-air-date">2026-11-18</episode-num>
+  </programme>
+  <programme start="20261119143000 -0700" stop="20261119145206 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: Lost and Found</title>
+    <episode-num system="original-air-date">2026-11-19</episode-num>
+  </programme>
+  <programme start="20261119163000 -0700" stop="20261119165517 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Extreme Workout 5 - Legs &amp; Full-Body</title>
+    <episode-num system="original-air-date">2026-11-19</episode-num>
+  </programme>
+  <programme start="20261119180000 -0700" stop="20261119220000 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Planning &amp; Zoning Commission Regular Meeting</title>
+    <episode-num system="original-air-date">2026-11-19</episode-num>
   </programme>
 </tv>
