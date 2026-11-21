@@ -2,74 +2,6 @@
   <channel id="FCTV">
     <display-name>Fort Collins TV</display-name>
   </channel>
-  <programme start="20261120053000 -0700" stop="20261120062959 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Discovery Live: Ask a Scientist</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120063000 -0700" stop="20261120063751 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View 2023 Episode 3</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120063751 -0700" stop="20261120064801 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View 2024 Episode 5</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120064801 -0700" stop="20261120065706 -0700" channel="FCTV" clumpidx="0/1">
-    <title>City View 2024 Episode 4</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120070000 -0700" stop="20261120072517 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Extreme Conditioning Workout 2 - Arms, Back &amp; Legs</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120073000 -0700" stop="20261120075951 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Eat Well Be Happy - Blue Corn Polenta, Salad &amp; Creme Caramel</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120080000 -0700" stop="20261120082149 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Look, Listen + Learn: Helping Others</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120090000 -0700" stop="20261120095657 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Planning &amp; Zoning Commission Regular Meeting 11/19/26</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120130000 -0700" stop="20261120132741 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Connected Colorado: Wellness and Community</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120133000 -0700" stop="20261120134812 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Scientists in Action</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120134812 -0700" stop="20261120135914 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Scientists in Action: Pikas</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120143000 -0700" stop="20261120145522 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Look, Listen + Learn: Decisions, Decisions</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120150000 -0700" stop="20261120155727 -0700" channel="FCTV" clumpidx="0/1">
-    <title>The History of Food: The Universalization of Regional Food Practices</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120160000 -0700" stop="20261120162758 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Red Rocks Premieres - Ramakhandra</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120163000 -0700" stop="20261120165641 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Fit for Duty - Plyometric Drills</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120170000 -0700" stop="20261120172849 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Book Lust - Stephen Mack Jones</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
-  <programme start="20261120180000 -0700" stop="20261120205413 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Fort Collins City Council Regular Meeting 11/17/26</title>
-    <episode-num system="original-air-date">2026-11-20</episode-num>
-  </programme>
   <programme start="20261121053000 -0700" stop="20261121061245 -0700" channel="FCTV" clumpidx="0/1">
     <title>Let's Talk with Mark Koebrich - Fire Mitigation</title>
     <episode-num system="original-air-date">2026-11-21</episode-num>
@@ -245,5 +177,77 @@
   <programme start="20261122200000 -0700" stop="20261122202741 -0700" channel="FCTV" clumpidx="0/1">
     <title>Connected Colorado: Wellness and Community</title>
     <episode-num system="original-air-date">2026-11-22</episode-num>
+  </programme>
+  <programme start="20261123053000 -0700" stop="20261123055537 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Chief Chat - August 2026</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123060000 -0700" stop="20261123065901 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Ask A Scientist - Birds</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123070000 -0700" stop="20261123072333 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Extreme Conditioning Workout 3 - Arms, Chest &amp; Legs</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123073000 -0700" stop="20261123075625 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Reality Cooking - Oreo Cheesecake Squares</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123080000 -0700" stop="20261123082647 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: So Much to Do!</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123090000 -0700" stop="20261123091816 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Hispanic Community Leaders</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123100000 -0700" stop="20261123112324 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123123000 -0700" stop="20261123123512 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View: Native Gardens at the Gardens on Spring Creek</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123133000 -0700" stop="20261123140644 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Brewing Brilliance: Beer Study and Practice</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123140644 -0700" stop="20261123141329 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Careers in the Brewing Industry</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123143000 -0700" stop="20261123145459 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Look, Listen + Learn: Quiet Time</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123150000 -0700" stop="20261123152741 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Connected Colorado: Wellness and Community</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123153000 -0700" stop="20261123153916 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View 2023 Episode 2</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123153916 -0700" stop="20261123154707 -0700" channel="FCTV" clumpidx="0/1">
+    <title>City View 2023 Episode 3</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123160000 -0700" stop="20261123163000 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Eat Well Be Happy - Spinach Lentil Salad</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123163000 -0700" stop="20261123165338 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Fit for Duty - Kickboxing</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123170000 -0700" stop="20261123174019 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Student Success in a Changing Job Market: Career Technical Education</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
+  </programme>
+  <programme start="20261123183000 -0700" stop="20261123195324 -0700" channel="FCTV" clumpidx="0/1">
+    <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
+    <episode-num system="original-air-date">2026-11-23</episode-num>
   </programme>
 </tv>
