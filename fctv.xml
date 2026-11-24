@@ -30,10 +30,6 @@
     <title>Look, Listen + Learn: Change</title>
     <episode-num system="original-air-date">2026-11-24</episode-num>
   </programme>
-  <programme start="20261124090000 -0700" stop="20261124120000 -0700" channel="FCTV" clumpidx="0/1">
-    <title>Larimer County Administrative Matters Meeting</title>
-    <episode-num system="original-air-date">2026-11-24</episode-num>
-  </programme>
   <programme start="20261124120000 -0700" stop="20261124132324 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Budget Hearing &amp; Landfill Rates Increase 11/9/26</title>
     <episode-num system="original-air-date">2026-11-24</episode-num>
@@ -146,7 +142,7 @@
     <title>Look, Listen + Learn: Never Give Up...On Math</title>
     <episode-num system="original-air-date">2026-11-25</episode-num>
   </programme>
-  <programme start="20261125150000 -0700" stop="20261125180000 -0700" channel="FCTV" clumpidx="0/1">
+  <programme start="20261125150000 -0700" stop="20261125153336 -0700" channel="FCTV" clumpidx="0/1">
     <title>Larimer County Administrative Matters Meeting 11/24/26</title>
     <episode-num system="original-air-date">2026-11-25</episode-num>
   </programme>
